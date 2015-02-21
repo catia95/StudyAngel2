@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/addButton"
+        android:onClick="addButtonClicked"
+        android:layout_above="@+id/displayModuleInfo"
+        android:layout_alignLeft="@+id/displayModuleInfo"
+        android:layout_alignStart="@+id/displayModuleInfo" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:id="@+id/deleteButton"
+        android:onClick="deleteButtonClicked"
+        android:layout_alignTop="@+id/addButton"
+        android:layout_toRightOf="@+id/addButton"
+        android:layout_toEndOf="@+id/addButton" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nothing in database"
+        android:id="@+id/displayModuleInfo"
+        android:layout_marginBottom="142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/moduleCode"
+        android:layout_alignStart="@+id/moduleCode" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moduleName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:singleLine="false"
+        android:text="name"
+        android:autoText="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moduleColour"
+        android:layout_below="@+id/moduleName"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:text="colour" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moduleCode"
+        android:layout_below="@+id/moduleColour"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:text="code" />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Study Angel</string>
+
+    <!-- Navigation Drawer -->
+    <string name="title_section1">Dashboard</string>
+    <string name="title_section2">DayView</string>
+    <string name="title_section3">WeekView</string>
+    <string name="title_section4">Tasks</string>
+    <string name="title_section5">Coursework</string>
+    <string name="title_section6">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- ActionBar -->
+    <string name="action_new">Add</string>
+    <string name="action_save">Done</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- AddLesson -->
+    <string name="add_lesson">Add Lesson</string>
+    <string name="module_code">Module Code</string>
+    <string name="module_name">Module Name</string>
+    <string name="button_save">Save</string>
+    <string name="colour_change">Click to change colour</string>
+
+</resources>
